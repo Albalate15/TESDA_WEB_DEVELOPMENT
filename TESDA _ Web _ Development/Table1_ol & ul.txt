@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body style="background-color:lightgreen;">
+<style>
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;    
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h1>HTML using ol and ul tags</h1>
+
+<div class="myDiv">
+  <h2>My Favorite Foreign Cuisine</h2>
+  <p>&</p>
+<h2>My Favorite Starbucks Cold Coffee</h2>
+</div>
+
+<h1>Favorite Italian Cuisine</h1>
+
+<ol>
+  <li>Margherita Pizza</li>
+  <li>Pasta Con Pomodoro E Basilico</li>
+  <li> Tiramisu</li>
+</ol>
+
+<h1>Favorite Japanese Cuisine</h1>
+
+<ol>
+  <li>Sushi</li>
+  <li>Yakitori</li>
+  <li>Ramen</li>
+  <li>Tonkatsu</li>
+  <li>Okonomiyaki</li>
+</ol>
+
+<h1>Favorite Korean Cuisine</h1>
+
+<ol>
+	<li>Bulgogi</li>
+    <li>Bossam</li>
+    <li>Bibimbap</li>
+    <li>Mandoo</li>
+</ol>
+
+<h1>Favorite Starbucks Cold Coffee</h1>
+
+<ul>
+  <li>Vanilla Sweet Cream Nitro Cold Brew</li>
+  <li>Salted Caramel Cream Cold Brew</li>
+  <li>Honey Almondmilk Cold Brew</li>
+  <li>Honey Almondmilk Nitro Cold Brew</li>
+</ul>
+
+
+</body>
+</html>

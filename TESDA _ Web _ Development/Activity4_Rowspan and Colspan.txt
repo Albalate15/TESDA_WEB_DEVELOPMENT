@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<table table border="4" style="table-layout: fixed; border-collapse: collapse;">
+		<tr>
+			<td colspan="3">
+				Invoice#123456789
+			</td>
+			<td colspan="4">
+				14 January 2025
+			</td>
+		</tr>
+
+		<tr>
+			<td colspan="2">
+				Pay to:
+			</td>
+			<td colspan="4">
+				Customer:
+			</td>
+		</tr>
+
+		<tr>
+			<td colspan="2">
+				Acme Billing Co.
+			</td>
+			<td colspan="4">
+				Jonh Smith
+			</td>
+		</tr>
+
+		<tr>
+			<td colspan="2">
+				123 Main St.
+			</td>
+			<td colspan="4">
+				321 Willow Way
+			</td>
+		</tr>
+
+		<tr>
+			<td colspan="2">
+				Cityville, NA 12345
+			</td>
+			<td colspan="4">
+				Southeast Northwestershire, MA 54321
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				Name/Description
+			</td>
+			<td>
+				QTY:
+			</td>
+			<td>
+				@
+			</td>
+			<td>
+				Cost
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				Paperclips
+			</td>
+			<td>
+				1000
+			</td>
+			<td>
+				0.01
+			</td>
+			<td>
+				10.00
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				Staple(Box)
+			</td>
+			<td>
+				100
+			</td>
+			<td>
+				1.00
+			</td>
+			<td>
+				100.00
+			</td>
+		</tr>
+
+		<tr>
+			<td colspan="3">
+				Subtotal
+			</td>
+			<td colspan="3">
+				110.00
+			</td>
+		</tr>
+
+		<tr>
+			<td colspan="2">
+				Tax
+			</td>
+			<td>
+				8%
+			</td>
+			<td>
+				8.80
+			</td>
+		</tr>
+
+		<tr>
+			<td colspan="3">
+				Grand Total
+			</td>
+			<td>
+				$ 118.80
+			</td>
+		</tr>
+
+	</table>
+
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+.header h1 {
+  font-size: 40px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+.navbar a.right {
+  float: right;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1> My Website </h1>
+  <p> A website created by me. </p>
+</div>
+
+<div class="navbar">
+  <a href="#"> Home </a>
+  <a href="#"> Contacts</a>
+  <a href="#"> Address </a>
+  <a href="#" class="right"> Information</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h1> About Me </h1>
+    <h3> I'm Andre a 4th year college student in the University of Batangas, Lipa City. A bachelor of Science in Computer Engineering student to be exact. I grew up in the Philippines and growing up I find computer to be a fascinating technology as it can do almost anything and make things happen. So, I pursue "Computer Engineering" and along the way of being a college student I find studying multiple program languages hard but as I go by them every single day I began to understand and just go for it, discovering new methods to do so. </h3>
+    <h1>Photo of me:</h1>
+    <img src="ME.jpg" alt="ME" style="width:230px;height:235px;">
+    <img src="Friends.jpg" alt="Friends" style="width:300px;height:300px;">
+    <h3> Favorite Places </h3>
+    <ul>
+      <li>New York</li>
+      <li>Switzerland</li>
+      <li>Canada</li>
+    </ul>
+    <img src="new york.jpg" alt="new york" style="width:230px;height:235px;">
+    <br>
+    <img src="switzerland.jpg" alt="switzerland" style="width:230px;height:235px;"><br>
+    <img src="canada01.jpg" alt="canada" style="width:220px;height:220px;">
+  </div>
+  <div class="main">
+    <h2>Career Information/Objectives</h2>
+     <img src="career.jpg" alt="career" style="width:500px;height:220px;">
+    <h3>About</h3>
+    <p>An ability to identify, formulate, and solve engineering problems. An understanding of professional and ethical responsibility. An ability to communicate effectively. The broad education necessary to understand the impact of engineering solutions in a global, economic, environmental, and societal context.</p>
+    <br>
+    <p>An ability to identify, formulate, and solve engineering problems. An understanding of professional and ethical responsibility. An ability to communicate effectively. The broad education necessary to understand the impact of engineering solutions in a global, economic, environmental, and societal context.</p>
+    <br>
+    <h2>Conclusion</h2>
+    <h5></h5>
+    <p>Being computer engineering has about any benefits you can to achieve anything and can create things that you can only see behind the screen. This course or job can help you be flexible and think logically and masterfully solve problems in the company. </p>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+this is HTML:
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Using Div to create boxes </title>
+	<link href="style01.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+	<div class="content" id="First">First Box</div>
+	<div class="content" id="Second">Second Box</div>
+	<div class="content" id="Third">Third Box</div>
+	<div class="content" id="Fourth">Fourth Box</div>
+
+</body>
+</html>
+
+
+
+
+
+
+this is CSS:
+
+div.content{
+	height:350px;
+	width:350px;
+	border:5px solid #000000;
+	float:left;
+	margin:20px;
+}
+
+div#First{
+	background-color: #FF0000;
+}
+
+div#Second{
+	background-color: #008000;
+}
+
+div#Third{
+	background-color: #0000FF;
+}
+
+div#Fourth{
+	background-color: #FF00FF;
+}
